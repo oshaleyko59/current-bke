@@ -2,6 +2,11 @@ import mongoose from "mongoose";
 import "dotenv/config";
 import app from "./app.js";
  // same as above: import dotenv from "dotenv"; dotenv.config();
+/* imports
+ const express = require("express"),
+		bodyParser = require("body-parser"),
+		swaggerJsdoc = require("swagger-jsdoc"),
+		swaggerUi = require("swagger-ui-express"); */
 
 const { DB_HOST, PORT } = process.env;
 
